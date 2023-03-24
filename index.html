@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Captured Moments</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="sam.css">
+</head>
+<style>
+	form {
+	  max-width: 500px;
+	  margin: 0 auto;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	textarea {
+	  display: block;
+	  width: 100%;
+	  margin-bottom: 10px;
+	  padding: 10px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+
+	input[type="submit"] {
+	  background-color: #4caf50;
+	  color: white;
+	  border: none;
+	  padding: 10px 20px;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+
+	input[type="submit"]:hover {
+	  background-color: #3e8e41;
+	
+	}
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+      footer a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+  
+  </style>
+<body>
+	<header>
+		<div class="container">
+        	<h1 class="logo">Captured Moments Photography</h1>
+			<nav>
+				<ul>
+					<li><a href="#previous-work">Previous Work</a></li>
+					<li><a href="#contact-us">Contact Us</a></li>
+					<li><a href="#courses">Courses</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="container">
+        <img src="phot2.jpg">
+        <div class="content">
+          <h1>Captured Moments</h1>
+          <p>Capture your Happiness Here</p>
+        </div>
+      </div>
+
+	<section class="previous-work" id="previous-work">
+		<div class="container">
+		  <h2 style="font-size: 50px;">Previous Work</h2><br>
+		  <div class="card">
+			<h2>Portrait Photography</h2><br>
+			<img src="phot3.jpeg">
+			<img src="phot4.jpeg">
+			<img src="phot5.jpg">
+			<img src="phot6.jpg">
+			<p>Portrait photography aims to capture the identity, personality, and essence of a subject utilizing photographic techniques such as composition, lighting, and posing. </p>
+		  </div>
+		  <div class="card">
+			<h2>Landscape Photography</h2><br>
+			<img src="pho1.jpg">
+			<img src="pho2.jpg">
+			<img src="pho3.jpg">
+			<img src="pho4.jpg">
+			<p>Landscape photography shows the spaces within the world, sometimes vast and unending, but other times microscopic </p>
+		  </div>
+		  <div class="card">
+			<h2>Event Photography</h2><br>
+			<img src="ep1.jpg">
+			<img src="ep2.jpg">
+			<img src="ep3.jpg">
+			<img src="ep4.jpg">
+			<p>Event photography is the professional art of snapping high-quality images during a wide variety of important occasions </p>
+		  </div>
+	  </section>
+	  
+
+	<!-- Contact Us Section -->
+	<section class="contact-us" id="contact-us">
+
+		<div class="container">
+
+			<h2 style="font-size: 40px;align-content: center;margin-left: 550px;">Contact Us </h2><br>
+			<form>
+				
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" placeholder="Name " required>
+				<br><br>
+		  
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Enter your mail Id" required>
+				<br><br>
+		  
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" placeholder="Enter Contact Number" required>
+				<br><br>
+		  
+				<label for="suggestion">Suggestion:</label>
+				<textarea id="suggestion" name="suggestion" placeholder="Enter your suggestions" rows="4" required></textarea>
+				<br><br>
+		  
+				<label for="feedback">Feedback:</label>
+				<textarea id="feedback" name="feedback" placeholder="Give us your feedback" rows="4" required></textarea>
+				<br><br>
+		  
+				<input type="submit" value="Submit">
+				<br><br><br>
+		
+			  </form>
+              
+		</div>
+	</section>
+
+	<!-- Courses Section -->
+	<section class="courses" id="courses">
+		<div class="container">
+			<main>
+				<h1>Photography Courses</h1>
+		
+				<ul class="courses-grid">
+					<li>
+						<h2>Basic Photography</h2>
+						<p>Learn the basics of photography, including composition, lighting, and exposure.</p>
+						
+					</li>
+		
+					<li>
+						<h2>Portrait Photography</h2>
+						<p>Portrait photography aims to capture the identity, personality, and essence of a subject utilizing photographic techniques such as composition, lighting, and posing. </p>
+						
+					</li>
+		
+					<li>
+						<h2>Landscape Photography</h2>
+						<p>Landscape photography shows the spaces within the world, sometimes vast and unending, but other times microscopic </p>
+						
+					</li>
+		
+					<li>
+						<h2>Wedding Photography</h2>
+						<p>Event photography is the professional art of snapping high-quality images during a wide variety of important occasions .</p>
+						
+					</li>
+		
+					<li>
+						<h2>Street Photography</h2>
+						<p>Explore the exciting world of street photography, from composition and lighting to capturing the essence of a place.</p>
+						
+					</li>
+		
+					<li>
+						<h2>Nature Photography</h2>
+						<p>Discover the beauty of nature photography, from capturing animals and birds to stunning landscapes and seascapes.</p>
+						
+					</li>
+				</ul>
+			</main>
+            </div>
+        </section>
+		<footer>
+			<p>&copy; 2023 My Website. All Rights Reserved.</p>
+			<p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>
+		  </footer>
+        
